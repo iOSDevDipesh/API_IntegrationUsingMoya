@@ -70,12 +70,12 @@
 		04B6996B29D20AE70037CAF8 /* API_IntegrationUsingMoya */ = {
 			isa = PBXGroup;
 			children = (
+				04B6998B29D20BB70037CAF8 /* Bootstrap */,
+				04B6998E29D20C020037CAF8 /* Network */,
 				04B6999429D20C630037CAF8 /* Helpers */,
 				04B6999129D20C2B0037CAF8 /* Models */,
-				04B6998E29D20C020037CAF8 /* Network */,
 				04B6998D29D20BE60037CAF8 /* ViewControllers */,
 				04B6998C29D20BDA0037CAF8 /* Storyboards */,
-				04B6998B29D20BB70037CAF8 /* Bootstrap */,
 				04B6998A29D20BA30037CAF8 /* Assets */,
 				04B6998929D20B800037CAF8 /* SupportFiles */,
 			);
@@ -143,18 +143,9 @@
 		04B6999429D20C630037CAF8 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				04B6999729D20C880037CAF8 /* Extensions */,
 				04B6999629D20C7D0037CAF8 /* Managers */,
-				04B6999529D20C6F0037CAF8 /* Constant */,
 			);
 			path = Helpers;
-			sourceTree = "<group>";
-		};
-		04B6999529D20C6F0037CAF8 /* Constant */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Constant;
 			sourceTree = "<group>";
 		};
 		04B6999629D20C7D0037CAF8 /* Managers */ = {
@@ -163,13 +154,6 @@
 				04B6999829D20C9E0037CAF8 /* NetworkManager.swift */,
 			);
 			path = Managers;
-			sourceTree = "<group>";
-		};
-		04B6999729D20C880037CAF8 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
